@@ -1,0 +1,36 @@
+div {
+  display: flex;
+  gap: 2.1rem;
+  margin-top: 4.5rem;
+}
+
+a {
+  background: #0072D2;
+  border: 0.1rem solid #0072D2;
+  padding: 1.5rem 2.7rem;
+  border-radius: 0.3rem;
+  color: #FFFFFF;
+  transition: opacity 300ms;
+}
+
+.outline {
+  background: #131318;
+  border: 0.1rem solid #FFFFFF;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 900px) {
+  div {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 4rem 1.2rem;
+    margin-top: 1rem;
+  }
+
+  a {
+    padding: 0.8rem 1.6rem;
+  }
+}

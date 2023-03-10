@@ -1,0 +1,21 @@
+div {
+  display: flex;
+  gap: 7.3rem;
+  margin-top: 12.1rem;
+  padding-inline: 2.4rem;
+}
+
+img {
+  width: 18.4rem;
+  height: 26.7rem;
+}
+
+@media (max-width: 900px) {
+  div {
+    padding: 0;
+
+  }
+  img {
+    display: none;
+  }
+}
