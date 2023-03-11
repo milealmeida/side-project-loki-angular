@@ -1,12 +1,12 @@
-<div>
+<div *ngFor="let info of infos">
   <a
-    href="https://www.disneyplus.com/pt-br/series/loki/6pARMvILBGzF"
+    href="{{ info.linkDisney }}"
     target="_blank"
   >
     ASSISTIR AGORA
   </a>
   <a
-    href="https://www.youtube.com/watch?v=nW948Va-l10"
+    href="{{ info.linkTrailer }}"
     target="_blank"
     class="outline"
   >

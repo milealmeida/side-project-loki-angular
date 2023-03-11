@@ -1,11 +1,11 @@
-<div class="desktop">
-  <p>Em “Loki” da Marvel Studios, o vilão mercurial Loki (Tom Hiddleston) retoma seu papel como o Deus do Mal em uma nova série que ocorre após os eventos de “Vingadores: Endgame”.</p>
+<div class="desktop" *ngFor="let info of infos">
+  <p>{{ info.text }}</p>
 
   <div class="details">
     <div class="clock">
       <img src="../../../assets/clock.svg" alt="Ícone de um relógio">
       <strong>
-        51min
+        {{ info.time }}min
       </strong>
     </div>
 
