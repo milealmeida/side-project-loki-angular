@@ -1,27 +1,38 @@
-# SideProjectLokiAngular
+# Side Project Loki
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.1.
+  Link para o site em produção: - https://side-project-loki-angular.vercel.app/
 
-## Development server
+<img src="./.github/print.png" />
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 💻 Sobre o projeto
 
-## Code scaffolding
+Projeto desenvolvido com o propósito de praticar os conceitos básicos de Angular, tendo como tema principal o seriado Loki.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Utilizando as seguintes tecnologias:
+  - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML);
+  - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS);
+  - [TYPESCRIPT](https://www.typescriptlang.org/);
+  - [ANGULAR](https://angular.io/);
 
-## Build
+  ## 🚨 Como baixar o projeto
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  Antes de começar, você vai precisar ter um editor para trabalhar com o código como VSCode.
 
-## Running unit tests
+  ### 🏁 Para rodar a aplicação
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  ```bash
+    # Clonar o repositório
+    $ git clone https://github.com/milealmeida/side-project-loki-angular
+    # Entrar no diretório
+    $ cd {nomepasta}
+    # Para abrir o Visual Studio Code
+    $ code .
+    # Instalar o projeto (digitar no terminal)
+    $ npm install
+    # Rodar o projeto na máquina (digitar no terminal)
+    $ ng serve 
+    # isso fará com que o projeto rode na `porta 
+    http://localhost:4200/
+``` 
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  Desenvolvido com 💙 por Milena Almeida.
